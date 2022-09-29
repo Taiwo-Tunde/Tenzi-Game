@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(12, 11, 11);
+  margin: 0;
+  padding: 20px;
+}
+
+.TenziApp-main {
+  background-color: antiquewhite;
+  height: 400px;
+  max-width: 800px;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.die-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 20px;
+}
+
+.die-component {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.die-number {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 40px;
+  background-color: blue;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+}
+.btn:hover {
+  background-color: grey;
+}
